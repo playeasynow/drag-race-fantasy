@@ -90,7 +90,7 @@ input, select, textarea {
 		background-position: top left, bottom left, auto;
 		/* background-size: auto, 100% 100%, cover; */
 		/* background-attachment: fixed; */
-		background-repeat: repeat, no-repeat, auto;
+		background-repeat: no-repeat;
 		position: relative;
 		background-color: #150C07;
 		line-height: 1.75em;
@@ -124,10 +124,10 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			body {
-				background-attachment: scroll;
-				background-size: auto, 100% 100%, 250% auto;
-				background-repeat: repeat, no-repeat, no-repeat;
-				background-position: top left, bottom left, 50% 0%;
+				/* background-attachment: scroll; */
+				/* background-size: auto, 100% 100%, 250% auto; */
+				background-repeat: repeat-x;
+				/* background-position: top left, bottom left, 50% 0%; */
 			}
 
 		}
