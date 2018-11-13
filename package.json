@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/playeasynow/drag-race-fantasy/issues"
   },
-  "homepage": "https://github.com/playeasynow/drag-race-fantasy#readme"
+  "homepage": "https://github.com/playeasynow/drag-race-fantasy#readme",
+  "dependencies": {
+    "interactjs": "^1.3.4"
+  }
 }
